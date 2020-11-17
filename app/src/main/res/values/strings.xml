@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="city">城市</string>
+    <string name="province">省/市名称的拼音</string>
+    <string name="query">查询</string>
+    <string name="current">当前天气查询</string>
+    <string name="future">未来天气查询</string>
+    <string name="cityFuture">城市</string>
+    <string name="provinceFuture">省/市名称的拼音</string>
+    <string name="queryFuture">查询</string>
+</resources>
