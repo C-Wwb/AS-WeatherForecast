@@ -119,18 +119,6 @@ public class MainActivity extends AppCompatActivity implements Runnable,View.OnC
     public void onClick(View v) {
         body.removeAllViews();
        city=value.getText().toString();
-       /*if(city==null){
-           new AlertDialog.Builder(this)
-                   .setTitle("错误页面")//标题
-                   .setMessage("请输入城市名称！")
-                   .setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                       @Override
-                       public void onClick(DialogInterface dialogInterface, int i) {
-                       }
-                   })
-                   .create()
-                   .show();
-       }*/
         Toast.makeText(this,"正在查询天气......",Toast.LENGTH_LONG).show();
         Thread th=new Thread(this);
         th.start();
